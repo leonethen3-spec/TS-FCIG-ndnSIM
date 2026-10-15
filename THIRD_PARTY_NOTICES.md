@@ -7,8 +7,8 @@
 | 文件 | 来源与归属 | 许可说明 |
 |---|---|---|
 | `waf` | [Waf](https://waf.io/)，Thomas Nagy；随附启动器版本2.0.14 | 启动器内附三条款 BSD 许可；原版权、条件和免责条款保持在文件头中 |
-| `.waf-tools/boost.py` | ndnSIM scenario-template 使用的 Waf Boost 检测工具 | 文件头保留 Gernot Vormayr、Ruediger Sonderfeld、Bjoern Michaelsen、Luca Fossati、Thomas Nagy、Sylvain Rouquette 等原贡献者记录 |
-| `.waf-tools/default-compiler-flags.py`、`.waf-tools/ns3.py` | [named-data-ndnSIM/scenario-template](https://github.com/named-data-ndnSIM/scenario-template) 的构建辅助代码 | 保留上游文件及原有声明；本项目 LICENSE 不为第三方文件创设额外授权 |
+| `waf-tools/boost.py` | ndnSIM scenario-template 使用的 Waf Boost 检测工具 | 文件头保留 Gernot Vormayr、Ruediger Sonderfeld、Bjoern Michaelsen、Luca Fossati、Thomas Nagy、Sylvain Rouquette 等原贡献者记录 |
+| `waf-tools/default-compiler-flags.py`、`waf-tools/ns3.py` | [named-data-ndnSIM/scenario-template](https://github.com/named-data-ndnSIM/scenario-template) 的构建辅助代码 | 保留上游文件及原有声明；本项目 LICENSE 不为第三方文件创设额外授权 |
 | `wscript` | 在上述 scenario-template 构建入口基础上适配本项目 | 承接 Waf 与 ns-3 模块发现流程，增加本项目扩展与场景的构建目标 |
 
 随附文件中的具体许可和版权声明优先适用于相应文件。

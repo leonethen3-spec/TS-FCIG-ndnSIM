@@ -11,7 +11,7 @@ def options(opt):
     opt.load(['compiler_c', 'compiler_cxx'])
     opt.load(['default-compiler-flags',
               'boost', 'ns3'],
-             tooldir=['.waf-tools'])
+             tooldir=['waf-tools'])
 
     opt.add_option('--logging',action='store_true',default=True,dest='logging',help='''enable logging in simulation scripts''')
     opt.add_option('--run',

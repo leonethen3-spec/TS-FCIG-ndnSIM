@@ -96,6 +96,7 @@ ndnSIM 环境安装说明见[官方文档](https://ndnsim.net/2.7/getting-starte
 
 | 路径 | 功能 |
 |---|---|
+| `waf-tools/` | Waf 构建辅助模块，由 `wscript` 加载 |
 | `extensions/ts-fcig-core.hpp` | 论文算法 1、算法 2、隶属函数、Sugeno 推理和 CUSUM 判定 |
 | `extensions/ts-fcig-detector.*` | 按路由器、前缀和入接口维护在线检测状态及 60 秒黑名单 |
 | `extensions/pit-limit-strategy.*` | BestRoute 派生转发策略、PIT 准入限制及完成事件采集 |

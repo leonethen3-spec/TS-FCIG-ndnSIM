@@ -3,5 +3,7 @@
 /.lock-*
 /.waf-*
 /.waf3-*
+!/.waf-tools/
+!/.waf-tools/**
 __pycache__/
 *.pyc

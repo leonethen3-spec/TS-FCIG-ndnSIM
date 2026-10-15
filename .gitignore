@@ -1,0 +1,7 @@
+/build/
+/results/
+/.lock-*
+/.waf-*
+/.waf3-*
+__pycache__/
+*.pyc

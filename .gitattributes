@@ -1,0 +1,10 @@
+* text=auto
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+wscript text eol=lf
+LICENSE text eol=lf
+# Waf contains an embedded payload; preserve its bytes.
+waf -text
